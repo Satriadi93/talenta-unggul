@@ -1,4 +1,4 @@
-import Banner from '../assets/banner2.jpg';
+import Banner from '../../public/assets/banner2.jpg';
 import { useEffect, useRef, useState } from 'react';
 import AOS from 'aos';
 import '../dist/aos.css';

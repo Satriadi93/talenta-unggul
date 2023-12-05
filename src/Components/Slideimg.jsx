@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { RiArrowRightSLine, RiArrowLeftSLine } from 'react-icons/ri';
-import Slide1 from '../assets/slider1.jpg';
-import Slide2 from '../assets/slider2.jpg';
-import Slide3 from '../assets/slider3.jpg';
+import Slide1 from '../../public/assets/slider1.jpg';
+import Slide2 from '../../public/assets/slider2.jpg';
+import Slide3 from '../../public/assets/slider3.jpg';
 
 
 const img = [Slide1, Slide2, Slide3];

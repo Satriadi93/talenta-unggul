@@ -1,9 +1,8 @@
-import React from 'react';
-import Aboutimg from '../assets/oil.jpg';
-import Icon1 from '../assets/icon1.png';
-import Icon2 from '../assets/icon2.png';
-import Icon3 from '../assets/icon3.png';
-import Icon4 from '../assets/icon4.png';
+import Aboutimg from '../../public/assets/oil.jpg';
+import Icon1 from '../../public/assets/icon1.png';
+import Icon2 from '../../public/assets/icon2.png';
+import Icon3 from '../../public/assets/icon3.png';
+import Icon4 from '../../public/assets/icon4.png';
 import { useEffect } from 'react';
 import AOS from 'aos';
 import '../dist/aos.css';

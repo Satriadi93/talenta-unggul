@@ -6,10 +6,10 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
-import Service1 from '../assets/service1.jpeg'
-import Service2 from '../assets/service2.jpg'
-import Service3 from '../assets/service3.jpg'
-import Service4 from '../assets/service4.jpg'
+import Service1 from '../../public/assets/service1.jpeg'
+import Service2 from '../../public/assets/service2.jpg'
+import Service3 from '../../public/assets/service3.jpg'
+import Service4 from '../../public/assets/service4.jpg'
 
 
 const Business = () => {

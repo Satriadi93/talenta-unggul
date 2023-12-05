@@ -1,6 +1,6 @@
 import { FaPhoneAlt, FaLinkedinIn, FaUser } from "react-icons/fa";
 import { MdOutlineMailOutline } from "react-icons/md";
-import Logo from '../assets/logo.png';
+import Logo from '../../public/assets/logo.png';
 
 const Navbar = () => {
   return (

@@ -1,5 +1,5 @@
-import Logo from '../assets/logo.png'
-import React, { useState, useEffect } from 'react';
+import Logo from '../../public/assets/logo.png'
+import { useState, useEffect } from 'react';
 import './animate.css';
 import { useInView } from 'react-intersection-observer';
 
