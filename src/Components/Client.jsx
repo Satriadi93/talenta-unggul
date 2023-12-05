@@ -82,10 +82,8 @@ export default Client;
 
 
 const AppContainer = styled.div`
-  width: 80vw;
+  width: 100vw;
   height: 80vh;
-  color: #000000;
-  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -112,7 +110,7 @@ const Text = styled.div`
 
 const Marquee = styled.div`
   display: flex;
-  width: 1200px;
+  width: 120vh;
   overflow: hidden;
   user-select: none;
 
@@ -140,7 +138,7 @@ const common = css`
   align-items: center;
   justify-content: space-around;
   white-space: nowrap;
-  width: 100%;
+  width: 150%;
   animation: ${scrollX} 30s linear infinite;
 `;
 
@@ -157,7 +155,7 @@ const ImageGroup = styled.div`
   display: grid;
   place-items: center;
   width: clamp(10rem, 2rem + 50vmin, 40rem);
-  padding: calc(clamp(2rem, 1rem + 2vmin, 2rem) / 2);
+  margin:5px;
 `;
 
 const Image = styled.img`

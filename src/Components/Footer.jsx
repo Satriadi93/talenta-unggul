@@ -1,7 +1,7 @@
 import Logo from '../assets/logo.png'
 const Footer = () => {
   return (
-    <footer className="bg-gray-800">
+    <footer className="bg-gray-800 ">
         <div className="max-w-screen-xl p-4 py-6 mx-auto lg:py-16 md:p-8 lg:p-10 ">
             <div className=" gap-52 md:grid-cols-3 lg:grid-cols-5 justify-center flex">
                 <div>

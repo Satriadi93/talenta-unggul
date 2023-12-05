@@ -9,11 +9,7 @@ const Visimisi = () => {
     const [hasPlayed, setHasPlayed] = useState(false);
     useEffect(() => {
         if (inView && !hasPlayed) {
-          // Jalankan animasi saat elemen pertama kali terlihat
-          // dan animasi belum dimainkan sebelumnya
           setHasPlayed(true);
-          // Tambahkan logika atau panggilan fungsi animasi di sini
-          
         } 
       }, [inView, hasPlayed]);
   return (

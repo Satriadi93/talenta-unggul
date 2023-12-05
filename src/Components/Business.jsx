@@ -32,7 +32,7 @@ return (
                     disableOnInteraction: false,
                   }}
                   slidesPerView={3}
-                  spaceBetween={20}
+                  spaceBetween={40}
                   loop={true}
                   pagination={{
                     clickable: true,
@@ -44,10 +44,10 @@ return (
                         {data.map((x) => (
                           <>
                             <SwiperSlide>
-                                  <div key={x.title} className="card w-80 h-full m-auto ">
-                                    <div className="my-auto">
+                                  <div key={x.title} className="card w-80 h-full nos-select  ">
+                                    <div className="my-auto md:mx-10  lg:mx-0">
                                       <div className="overflow-auto my-auto rounded-lg h-60">
-                                        <img src={x.img} alt="" className='w-full h-full object-cover' />
+                                        <img src={x.img} alt="" className='w-full h-full object-cover ' />
                                       </div>
                                       <div className="Title mt-2 mb-10 text-center">{x.title}</div>
                                       <div className="mt-2 flex">
