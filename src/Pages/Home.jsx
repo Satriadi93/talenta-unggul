@@ -1,18 +1,17 @@
-import About from "../Components/About"
-import Header from "../Components/Navbar"
 import Navbar from "../Components/Navbar"
-import Slideimg from "../Components/Slideimg"
-import Business from "../Components/Business"
-import Hse from "../Components/Hse"
-import Client from "../Components/Client"
-import Footer from "../Components/Footer"
-import Visimisi from "../Components/Visimisi"
+// import About from "../Components/About"
+// import Slideimg from "../Components/Slideimg"
+// import Business from "../Components/Business"
+// import Hse from "../Components/Hse"
+// import Client from "../Components/Client"
+// import Footer from "../Components/Footer"
+// import Visimisi from "../Components/Visimisi"
 
 const Home = () => {
   return (
     <>
-      <Header/>
-      <Slideimg/>
+      <Navbar/>
+      {/* <Slideimg/>
       <br />
       <About/>
       <Visimisi/>
@@ -20,7 +19,7 @@ const Home = () => {
       <Business/>
       <Hse/>
       <Client/>
-      <Footer/>
+      <Footer/> */}
     </>
   )
 }

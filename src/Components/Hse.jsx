@@ -7,7 +7,7 @@ import { useInView } from 'react-intersection-observer';
 
 const Hse = () => {
   const [ref, inView] = useInView({
-    triggerOnce: true, // Animasi hanya akan diputar sekali
+    triggerOnce: false,
   });
 
   const roundLogRef = useRef(null);
@@ -29,7 +29,6 @@ const Hse = () => {
       });
 
       setHasPlayed(true);
-      // Tambahkan logika atau panggilan fungsi animasi di sini
     }
   }, [inView, hasPlayed]);
 
@@ -37,7 +36,7 @@ const Hse = () => {
     <div className='relative w-full'>
       <div className='absolute left-32 top-1/2 transform -translate-y-1/2 '>
         <p data-aos="zoom-in" className='text-white text-3xl font-bold'>WITHOUT A RECORDABLE ACCIDENT,</p>
-        <p data-aos="zoom-in" className='mt-2 text-white text-3xl font-bold'>SAFETY BEGINS WITH YOU</p>
+        <p data-aos="zoom-in" className='mt-5 text-white text-3xl font-bold'>SAFETY BEGINS WITH YOU</p>
       </div>
       <div className='absolute right-48 top-1/2 transform -translate-y-1/2 '>
         <p data-aos="zoom-in" className='text-white text-lg text-center mb-10'>HSE Meter</p>

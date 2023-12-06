@@ -43,11 +43,11 @@ return (
                 >
                         {data.map((x) => (
                           <>
-                            <SwiperSlide>
-                                  <div key={x.title} className="card w-80 h-full nos-select  ">
+                            <SwiperSlide >
+                                  <div key={x.title} className="card w-80 h-full nos-select m-auto ">
                                     <div className="my-auto md:mx-10  lg:mx-0">
-                                      <div className="overflow-auto my-auto rounded-lg h-60">
-                                        <img src={x.img} alt="" className='w-full h-full object-cover ' />
+                                      <div className="overflow-auto my-auto rounded-lg h-60 ">
+                                        <img src={x.img} alt="" className='w-full h-full object-cover' />
                                       </div>
                                       <div className="Title mt-2 mb-10 text-center">{x.title}</div>
                                       <div className="mt-2 flex">
