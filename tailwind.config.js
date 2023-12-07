@@ -12,8 +12,21 @@ export default {
         HoverOrange: "#ea580c" 
       },
       height: {
-        '128': '500px',
+        'slide': '90vh',
+        '80vh': '80vh',
+        '70vh': '70vh',
       },
+      width: {
+        '40vh': '40vh',
+        '60vh': '60vh',
+        '80vh':'80vh'
+      },
+      padding: {
+        '50vh': '10vh',
+      },
+      margin: {
+        '50vh': '10vh',
+      }
     },
   },
   plugins: [],

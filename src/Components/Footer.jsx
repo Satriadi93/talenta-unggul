@@ -2,56 +2,56 @@ import Logo from '../../public/assets/logo.png'
 const Footer = () => {
   return (
     <footer className="bg-gray-800 ">
-        <div className="max-w-screen-xl p-4 py-6 mx-auto lg:py-16 md:p-8 lg:p-10 ">
-            <div className=" gap-52 md:grid-cols-3 lg:grid-cols-5 justify-center flex">
-                <div>
-                    <h3 className="mb-6 text-sm font-semibold  uppercase text-white">Company</h3>
-                    <ul className="text-gray-500 dark:text-gray-400">
-                        <li className="mb-4">
-                            <a href="#" className=" hover:underline">About</a>
+        <div className="max-w-screen-xl  py-6 mx-auto lg:py-16 md:p-8 lg:p-10 ">
+            <div className=" gap-10 lg:gap-52 grid md:grid-cols-1 lg:grid-cols-3 justify-center  lg:flex">
+                <div className=''>
+                    <h3 className="lg:mb-6 text-4xl lg:text-sm font-semibold  text-center lg:text-left uppercase text-white">Company</h3>
+                    <ul className="text-gray-500 dark:text-gray-400 ">
+                        <li className="mb-4 text-center lg:text-left px-20 lg:px-0 mt-10 lg:mt-0">
+                            <a href="#" className=" hover:underline text-2xl lg:hidden  ">Established in 2021 by the most experienced and ambitious Indonesian professional engineer from multi sector such as oil & gas, power generation, oleo chemical, pulp & paper and mining industry, we are specialist to supports client’s most need: professional engineer to support client’s project with a vision to be preferred regional player in to support national project development</a>
+                            <a href="#" className=" hover:underline text-2xl  hidden lg:block ">About</a>
                         </li>
-                        <li className="mb-4">
-                            <a href="#" className="hover:underline">Careers</a>
+                        <li className="mb-4 text-center lg:text-left">
+                            <a href="#" className="hover:underline hidden lg:block">Careers</a>
                         </li>
-                        <li className="mb-4">
-                            <a href="#" className="hover:underline">Our Business</a>
+                        <li className="mb-4 text-center lg:text-left">
+                            <a href="#" className="hover:underline hidden lg:block">Our Business</a>
                         </li>
-                        <li className="mb-4">
-                            <a href="#" className="hover:underline">Article</a>
+                        <li className="mb-4 text-center lg:text-left">
+                            <a href="#" className="hover:underline hidden lg:block">Article</a>
                         </li>
                     </ul>
                 </div>
-                <div>
-                    <h3 className="mb-6 text-sm font-semibold  uppercase text-center text-white">Location</h3>
+                <div >
+                    <h3 className="lg:mb-6 mb-10 text-4xl lg:text-sm font-semibold  text-center lg:text-left uppercase text-white">Location</h3>
+                    <div className='items-center justify-center place-contet-center flex'>
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63121.39484369181!2d116.07539346517733!3d-8.587616742001488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dcdbf5f22de1ef1%3A0x3030bfbcaf7d0d0!2sMataram%2C%20Kota%20Mataram%2C%20Nusa%20Tenggara%20Bar.!5e0!3m2!1sid!2sid!4v1701349454152!5m2!1sid!2sid"
-                        width="200"
-                        height="200"
-                        className="yourClassName"
+                        className="w-40vh h-96 lg:w-full lg:h-full"
                         style={{ border: '0' }}
                         allowFullScreen=""
                         loading="lazy"
                         referrerPolicy="no-referrer-when-downgrade"
                         ></iframe>
+                    </div>
                 </div>
                 <div>
-                    <h3 className="mb-6 text-sm font-semibold uppercase text-white">Help center</h3>
-                    <ul className="text-gray-500 dark:text-gray-400">
-                        <li className="mb-4">
-                            <a href="#" className="hover:underline">Discord Server</a>
+                    <h3 className="lg:mb-6 text-4xl lg:text-sm font-semibold my-4 text-center lg:text-left uppercase text-white">Help center</h3>
+                    <ul className="text-gray-500 dark:text-gray-400 ">
+                        <li className="mb-4 text-center lg:text-left text-2xl lg:text-sm py-1 ">
+                            <a href="#" className="hover:underline">Email@gmail.com</a>
                         </li>
-                        <li className="mb-4">
-                            <a href="#" className="hover:underline">Twitter</a>
+                        <li className="mb-4 text-center lg:text-left text-2xl lg:text-sm py-1 ">
+                            <a href="#" className="hover:underline">Twitter@trirr</a>
                         </li>
-                        <li className="mb-4">
-                            <a href="#" className="hover:underline">Facebook</a>
+                        <li className="mb-4 text-center lg:text-left text-2xl lg:text-sm py-1 ">
+                            <a href="#" className="hover:underline">Facebook name</a>
                         </li>
-                        <li className="mb-4">
+                        <li className="mb-4 text-center lg:text-left text-2xl lg:text-sm py-1 ">
                             <a href="#" className="hover:underline">Contact Us</a>
                         </li>
                     </ul>
                 </div>
-                
             </div>
             <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8"/>
             <div className="text-center">

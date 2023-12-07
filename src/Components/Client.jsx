@@ -35,7 +35,7 @@ Client16, Client17, Client18, Client19, Client20, Client21
 return (
 <AppContainer>
   <Wrapper>
-    <Text>Our <span className='text-Orange'>Client</span></Text>
+    <Text className="text-8xl font-bold lg:text-5xl pb-40 lg:pb-0">Our <span className='text-Orange'>Client</span></Text>
     <br /><br /><br />
 
     <Marquee>
@@ -83,12 +83,12 @@ export default Client;
 
 
 const AppContainer = styled.div`
-width: 100vw;
-height: 80vh;
+height: 70vh;
 display: flex;
 align-items: center;
 justify-content: center;
 margin: auto;
+overflow:hidden;
 `;
 
 const Wrapper = styled.div`
@@ -102,10 +102,7 @@ flex-direction: column;
 `;
 
 const Text = styled.div`
-font-size: 45px;
-font-weight: 500;
 margin-bottom: 10px;
-color: #02203c;
 `;
 
 
@@ -161,4 +158,4 @@ margin:5px;
 
 const Image = styled.img`
 object-fit: contain;
-`;
+`
