@@ -4,9 +4,18 @@ import ImgAbout from "../../public/assets/About1.jpg"
 import Img3 from "../../public/assets/image3.jpg"
 import Img4 from "../../public/assets/image4.jpg"
 import Mailstone from "../Components/Mailstone"
+import { useEffect } from 'react';
+import AOS from 'aos';
+import '../dist/aos.css';
 
 
 const About = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, 
+      easing: 'ease-in-out',
+    });
+  }, []);
 return (
 <>
   <Navbar page='about' />
@@ -21,7 +30,7 @@ return (
       <div className="lg:hidden relative z-10 text-center py-16 text-8xl lg:text-6xl font-bold text-white">
         About <span className="text-Orange">Us</span>
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-3 relative z-10 lg:mx-20 lg:pt-20">
+      <div data-aos="zoom-in" className="grid grid-cols-1 lg:grid-cols-3 relative z-10 lg:mx-20 lg:pt-20">
         <div className="">
             <div className="hidden lg:block relative z-10 text-center py-5 text-8xl lg:text-6xl font-bold text-white">
             <div className="mb-5">About <span className="text-Orange">Us</span></div>
@@ -29,7 +38,7 @@ return (
           </div>
             <img src={Img3} alt="" className="mx-auto rounded-xl lg:hidden" />
         </div>
-        <div className="col-span-2 lg:flex lg:items-center lg:justify-center ">
+        <div data-aos="zoom-in" className="col-span-2 lg:flex lg:items-center lg:justify-center ">
           <div className="flex">
           <p className="m-20 lg:m-0 text-justify text-4xl lg:text-sm xl:text-xl lg:h-full lg:px-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
             quaerat ipsam animi commodi accusantium qui, earum atque veniam magnam deleniti et quo dolores voluptatem
@@ -47,7 +56,7 @@ return (
     </div>
     <Mailstone/>
     <div className="">
-      <div className="text-8xl font-bold py-20 text-white text-center ">Our <span className="text-Orange">Credentials</span></div>
+      <div className="text-8xl lg:text-6xl font-bold py-20 text-white text-center ">Our <span className="text-Orange">Credentials</span></div>
       <div className="flex gap-x-20 mb-20 justify-center">
         <img src={Img3} alt="" className="w-60 " />
         <img src={Img3} alt="" className="w-60 " />

@@ -15,13 +15,19 @@ export default {
         'slide': '90vh',
         '80vh': '80vh',
         '70vh': '70vh',
+        '50vh': '50vh',
+        '45vh': '45vh',
         '40vh': '40vh',
       },
       width: {
         '40vh': '40vh',
+        '45vh': '45vh',
         '50vh': '50vh',
         '60vh': '60vh',
-        '80vh':'80vh'
+        '100vh': '100vh',
+        '80vh':'80vh',
+        '90vh':'90vh'
+
       },
       padding: {
         '50vh': '10vh',
