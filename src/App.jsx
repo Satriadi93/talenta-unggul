@@ -11,7 +11,8 @@ function App() {
   
   return (
     <>
-     <Router basename="/talenta-unggul">
+     {/* <Router basename="/talenta-unggul"> */}
+     <Router>
       <Routes>
         <Route path='/' element={<Homepage/>}/>
         <Route path='/about' element={<Aboutpage/>}/>

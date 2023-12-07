@@ -15,9 +15,11 @@ export default {
         'slide': '90vh',
         '80vh': '80vh',
         '70vh': '70vh',
+        '40vh': '40vh',
       },
       width: {
         '40vh': '40vh',
+        '50vh': '50vh',
         '60vh': '60vh',
         '80vh':'80vh'
       },
