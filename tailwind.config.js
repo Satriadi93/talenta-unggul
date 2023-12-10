@@ -25,6 +25,7 @@ export default {
         '50vh': '50vh',
         '60vh': '60vh',
         '100vh': '100vh',
+        '198vh': '198vh',
         '80vh':'80vh',
         '90vh':'90vh'
 
@@ -34,6 +35,8 @@ export default {
       },
       margin: {
         '50vh': '10vh',
+        '20vh': '20vh',
+        '20%': '20%'
       }
     },
   },

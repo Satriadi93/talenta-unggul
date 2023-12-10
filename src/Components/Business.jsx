@@ -17,7 +17,7 @@ const Business = () => {
     <>
     <section className="mb-50vh mt-20 no-select">
           <h1 className="text-center font-bold my-32 lg:my-16 text-8xl lg:text-5xl text-Orange">Our <span className="text-black">Business</span></h1>
-      <div className="container w-full no-select">
+      <div className="no-select">
           <Swiper
             autoplay={{
               delay: 3000,
@@ -45,34 +45,34 @@ const Business = () => {
               
             }
             modules={[Autoplay, EffectCoverflow, Pagination, Navigation]}
-            className="swiper_container w-screen   mx-auto overflow-hidden "
+            className="swiper_container w-full   overflow-hidden "
           >
-            <SwiperSlide className="w-40vh lg:w-60vh bg-Pink   ">
+            <SwiperSlide className="w-40vh lg:w-60vh bg-Pink    ">
               <img src={Service1} alt="service" className="rounded-xl" />
               <p className="text-center text-5xl lg:text-xl py-16 lg:py-4 ">Plan</p>
               <p className="mt-10 mx-32 text-center bg-Orange rounded-md p-4 lg:p-2 text-white text-4xl lg:text-sm mb-5 cursor-pointer">Learn More</p>
             </SwiperSlide>
-            <SwiperSlide className="w-40vh lg:w-60vh bg-Pink   ">
+            <SwiperSlide className="w-40vh lg:w-60vh bg-Pink    ">
               <img src={Service2} alt="service" className="rounded-xl" />
               <p className="text-center text-5xl lg:text-xl py-16 lg:py-4 ">Economic Optimization</p>
               <p className="mt-10 mx-32 text-center bg-Orange rounded-md p-4 lg:p-2 text-white text-4xl lg:text-sm mb-5 cursor-pointer">Learn More</p>
             </SwiperSlide>
-            <SwiperSlide className="w-40vh lg:w-60vh bg-Pink   ">
+            <SwiperSlide className="w-40vh lg:w-60vh bg-Pink    ">
               <img src={Service3} alt="service" className="rounded-xl" />
               <p className="text-center text-5xl lg:text-xl py-16 lg:py-4 ">Supervisory Control</p>
               <p className="mt-10 mx-32 text-center bg-Orange rounded-md p-4 lg:p-2 text-white text-4xl lg:text-sm mb-5 cursor-pointer">Learn More</p>
             </SwiperSlide>
-            <SwiperSlide className="w-40vh lg:w-60vh bg-Pink   ">
+            <SwiperSlide className="w-40vh lg:w-60vh bg-Pink    ">
               <img src={Service4} alt="service" className="rounded-xl" />
               <p className="text-center text-5xl lg:text-xl py-16 lg:py-4 ">Base Control Layer</p>
               <p className="mt-10 mx-32 text-center bg-Orange rounded-md p-4 lg:p-2 text-white text-4xl lg:text-sm mb-5 cursor-pointer">Learn More</p>
             </SwiperSlide>
-            <SwiperSlide className="w-40vh lg:w-60vh bg-Pink   ">
+            <SwiperSlide className="w-40vh lg:w-60vh bg-Pink    ">
               <img src={Service3} alt="service" className="rounded-xl" />
               <p className="text-center text-5xl lg:text-xl py-16 lg:py-4 ">I&C Infrestructure</p>
               <p className="mt-10 mx-32 text-center bg-Orange rounded-md p-4 lg:p-2 text-white text-4xl lg:text-sm mb-5 cursor-pointer">Learn More</p>
             </SwiperSlide>
-            <SwiperSlide className="w-40vh lg:w-60vh bg-Pink   ">
+            <SwiperSlide className="w-40vh lg:w-60vh bg-Pink    ">
               <img src={Service2} alt="service" className="rounded-xl" />
               <p className="text-center text-5xl lg:text-xl py-16 lg:py-4 ">PROCESS</p>
               <p className="mt-10 mx-32 text-center bg-Orange rounded-md p-4 lg:p-2 text-white text-4xl lg:text-sm mb-5 cursor-pointer">Learn More</p>

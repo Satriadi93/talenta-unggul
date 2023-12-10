@@ -32,26 +32,26 @@ return (
                 specialist to supports client’s most need: professional engineer to support client’s project with a
                 vision to be
                 preferred regional player in to support national project development</p>
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 pt-4 mx-16 lg:mx-0 gap-y-32 lg:gap-y-0 " >
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 pt-4 mx-16 lg:mx-2 gap-y-32 lg:gap-y-1 " >
                 <div data-aos="zoom-in">
                     <img className='m-auto w-60 lg:w-20 ' src={Icon1} alt=""  />
                     <p className='text-center font-bold my-4 lg:my-2 text-5xl lg:text-sm'>INTEGRITY</p>
-                    <p className='text-center text-slate-500 mx-32 lg:mx-0 text-3xl lg:text-sm'>desa sdsadd asdas asdasd desa sdsadd asdas asdasd desasdsadd asdas asdasd desa sdsadd asdas asdasd</p>
+                    <p className='text-center text-slate-500 mx-32 lg:mx-0 text-3xl lg:text-sm'>We are committed to operating with the highest integrity in all aspects of our work.</p>
                 </div>
                 <div data-aos="zoom-in">
-                    <img className='m-auto w-60 lg:w-20' src={Icon2} alt=""  />
-                    <p className='text-center font-bold my-4 lg:my-3.5 text-5xl lg:text-sm'>RESPOSSIBILITY</p>
-                    <p className='text-center text-slate-500 mx-32 lg:mx-0 text-3xl lg:text-sm'>desa sdsadd asdas asdasd desa sdsadd asdas asdasd desasdsadd asdas asdasd desa sdsadd asdas asdasd</p>
+                    <img className='m-auto w-60 lg:w-24' src={Icon2} alt=""  />
+                    <p className='text-center font-bold my-4 lg:my-1 text-5xl lg:text-sm'>RESPOSSIBILITY</p>
+                    <p className='text-center text-slate-500 mx-32 lg:mx-0 text-3xl lg:text-sm'>We are dedicated to delivering outstanding results, meeting client expectations, and making a positive impact on the community.</p>
                 </div>
                 <div data-aos="zoom-in">
-                    <img className='m-auto w-60 lg:w-20' src={Icon3} alt=""  />
-                    <p className='text-center font-bold my-4 lg:my-2 text-5xl lg:text-sm'>PROFESSIONALISM</p>
-                    <p className='text-center text-slate-500 mx-32 lg:mx-0 text-3xl lg:text-sm'>desa sdsadd asdas asdasd desa sdsadd asdas asdasd desasdsadd asdas asdasd desa sdsadd asdas asdasd</p>
+                    <img className='m-auto w-60 lg:w-24' src={Icon3} alt=""  />
+                    <p className='text-center font-bold my-4 lg:mb-2 lg:mt-0 text-5xl lg:text-sm'>PROFESSIONALISM</p>
+                    <p className='text-center text-slate-500 mx-32 lg:mx-0 text-3xl lg:text-sm'>Our team of experienced and ambitious engineers is dedicated to providing high-quality services that align with international industry standards.</p>
                 </div>
                 <div data-aos="zoom-in">
                     <img className='m-auto w-60 lg:w-20' src={Icon4} alt=""  />
                     <p className='text-center font-bold my-4 lg:my-3 text-5xl lg:text-sm'>ETHICS</p>
-                    <p className='text-center text-slate-500 mx-32 lg:mx-0 text-3xl lg:text-sm'>desa sdsadd asdas asdasd desa sdsadd asdas asdasd desasdsadd asdas asdasd desa sdsadd asdas asdasd</p>
+                    <p className='text-center text-slate-500 mx-32 lg:mx-0 text-3xl lg:text-sm'>We conduct business strictly adhering to ethical values, establishing a strong foundation for long-term sustainability and customer trust.</p>
                 </div>
             </div>
         </div>

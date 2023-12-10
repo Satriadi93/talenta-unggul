@@ -35,7 +35,7 @@ Client16, Client17, Client18, Client19, Client20, Client21
 return (
 <AppContainer>
   <Wrapper>
-    <Text className="text-8xl font-bold lg:text-5xl pb-40 lg:pb-0">Our <span className='text-Orange'>Client</span></Text>
+    <Text className="text-8xl font-bold lg:text-5xl pb-40 lg:pb-0">Our <span className='text-Orange'>Product</span></Text>
     <br /><br /><br />
 
     <Marquee>

@@ -4,7 +4,7 @@ import About from "../Components/About"
 import Business from "../Components/Business"
 import Visimisi from "../Components/Visimisi"
 import Hse from "../Components/Hse"
-import Client from "../Components/Client"
+import Client from "../Components/Product"
 import Footer from "../Components/Footer"
 
 const Home = () => {

@@ -1,6 +1,5 @@
 import Homepage from './Pages/Homepage'
 import Contactpage from './Pages/Contactpage'
-import Carrierpage from './Pages/Carrierpage'
 import Businesspage from './Pages/Businesspage'
 import Articlepage from './Pages/Articlepage'
 import Aboutpage from './Pages/Aboutpage'
@@ -11,14 +10,13 @@ function App() {
   
   return (
     <>
-     <Router basename="/talenta-unggul">
-     {/* <Router> */}
+     {/* <Router basename="/talenta-unggul"> */}
+     <Router>
       <Routes>
         <Route path='/' element={<Homepage/>}/>
         <Route path='/about' element={<Aboutpage/>}/>
         <Route path='/article' element={<Articlepage/>}/>
         <Route path='/business' element={<Businesspage/>}/>
-        <Route path='/carrier' element={<Carrierpage/>}/>
         <Route path='/contact' element={<Contactpage/>}/>
         <Route path='*' element={<Notfound/>}/>
       </Routes>
